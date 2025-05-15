@@ -1,0 +1,370 @@
+body, html {
+    font-family: "Hubot Sans", sans-serif;
+}
+
+:root {
+    --accent-blue: #0B00DA;
+    --accent-yellow: #FECB01;
+    --bs-gutter-x: 3rem;
+}
+
+.row>* {
+    padding-right: calc(3.6rem * .5);
+    padding-left: calc(3.6rem * .5);
+ }
+
+.nav-link {
+    color: var(--accent-blue);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #A6CB36;
+    font-weight: 500;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgb(23 25 41) !important;
+}
+
+.hero-image {
+    background-image: url(../img/BANNER-MOVIL.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 160px 0 80px 0;
+    min-height: 500px;
+}
+
+
+.hero-days {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.hero-month {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.border-l {
+    border-left: none;
+}
+
+.hero-data {
+    padding: 14px 20px;
+}
+
+.hero-lugar {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#infographic {
+    padding: 60px 0;
+    background-color:var(--accent-blue);
+}
+
+.info-icon {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.info-graph-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info-graph-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 4px;
+}
+
+#intro {
+    padding: 70px 0;
+}
+
+H1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    margin: 12px 0 20px 0;
+}
+
+.content {
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+#minicursos {
+    padding: 70px 0;
+    background-color: #1A1D2D;
+}
+
+.courses-container {
+    color: #FFFFFF;
+}
+
+.courses-container a {
+    color: var(--accent-yellow);
+    text-decoration: underline;
+}
+
+.course-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    margin-top: 32px;
+    max-width: 720px;
+}
+
+.professor {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--accent-yellow);
+}
+
+.university {
+    font-size: 16px;
+    margin-left: 12px;
+    color: var(--accent-yellow);
+}
+
+.abstract {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #d1d1d1;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    /*text-align: justify;*/
+}
+
+#schedule {
+    padding: 70px 0;
+    background-color: #FBFBFB;
+}
+
+
+.schedule-day {
+
+}
+
+.schedule-time {
+    padding: 4px 16px;
+    min-width: 120px;
+    font-size: 14px;
+}
+
+.schedule-event {
+    border-bottom: 1px solid #e9ecef;
+    padding: 16px 0;
+}
+
+.schedule-talk {
+    padding: 4px 16px;
+}
+
+.schedule-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+.schedule-magenta {
+    border-left: #8336cb 4px solid;
+}
+
+.schedule-green {
+    border-left: #42982c 4px solid;
+}
+
+.schedule-blue {
+    border-left: #3659cb 4px solid;
+}
+
+.schedule-yellow {
+    border-left: #cbbf36 4px solid;
+}
+
+.schedule-red {
+    border-left: #cb3636 4px solid;
+}
+
+.schedule-grey {
+    border-left: #7a7a7a 4px solid;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #000000;
+    padding: 8px 12px;
+}
+
+.nav-tabs .nav-link {
+    padding: 8px 12px;
+}
+
+#registro {
+    padding: 70px 0;
+    background-color: #f7f7f7;
+}
+
+.registro {
+    background-color: #0B00DA;
+    color: #F0F0F0;
+    padding: 40px 40px;
+    border-radius: 8px;
+}
+
+#comites {
+    padding: 70px 0;
+    background-color: #FFFFFF;
+}
+
+.organizador {
+    color: var(--accent-blue);
+    font-weight: bold;
+}
+
+
+#footer {
+    padding: 72px 0;
+    background-color: #333233;
+}
+
+.green {
+    color: #A6CB36;
+}
+
+.white {
+    color: white;
+}
+
+.sponsor {
+    margin-bottom: 4rem;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    padding: 2px;
+}
+
+@media (min-width: 768px) {
+
+    .hero-image {
+        background-image: url(../img/BANNER-4ETGG.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: black;
+        padding: 80px 0 40px 0;
+        min-height: 650px;
+    }
+
+    .hero-days {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 55px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .hero-month {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 37px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    H1 {
+        font-size: 36px;
+    }
+
+    .border-l {
+        border-left: none;
+    }
+
+
+    .hero-data {
+        padding: 0px 20px;
+    }
+
+    .hero-lugar {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .border-l {
+        border-left: 4px solid #A6CB36;
+    }
+
+    .content {
+        max-width: 700px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #fff;
+        background-color: #000000;
+        padding: 8px 40px;
+    }
+
+    .nav-tabs .nav-link {
+        padding: 8px 40px;
+    }
+
+    .schedule-time {
+        padding: 4px 16px;
+        min-width: 180px;
+    }
+
+    .schedule-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 8px;
+        color: #333333;
+    }
+}
