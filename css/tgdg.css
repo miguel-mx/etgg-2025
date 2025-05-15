@@ -13,8 +13,18 @@ body, html {
     padding-left: calc(3.6rem * .5);
  }
 
-.nav-link {
+nav-link {
+    color: #FFFFFF;
+}
+
+#schedule .nav-link {
     color: var(--accent-blue);
+}
+
+#schedule .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fff!important;
+    background-color: #000000;
+    padding: 8px 40px;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
@@ -226,13 +236,13 @@ H1 {
 }
 
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+#schedule .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     color: #fff;
     background-color: #000000;
     padding: 8px 12px;
 }
 
-.nav-tabs .nav-link {
+#schedule .nav-tabs .nav-link {
     padding: 8px 12px;
 }
 
@@ -343,13 +353,13 @@ H1 {
         letter-spacing: 0em;
     }
 
-    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    #schedule .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
         color: #fff;
         background-color: #000000;
         padding: 8px 40px;
     }
 
-    .nav-tabs .nav-link {
+    #schedule .nav-tabs .nav-link {
         padding: 8px 40px;
     }
 
